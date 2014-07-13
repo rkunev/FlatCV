@@ -6,3 +6,5 @@ Header
 main-content
 
 Add js/vendor to .gitignore when pushing to production
+Add hyperlinks to Telerik Academy, Sofia University
+Revise anchor styling - more font-weight, hover animations, :focus, :active
