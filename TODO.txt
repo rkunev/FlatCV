@@ -1,0 +1,8 @@
+Header
+    use modernizr to add lt ie9 custom styles (low res icon pack/sprite)
+    check blog html5 shiv/shim
+    refactor existing css
+    
+main-content
+
+Add js/vendor to .gitignore when pushing to production
