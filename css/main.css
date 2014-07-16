@@ -75,6 +75,7 @@ strong {
 }
 ul, ol {
     padding: 0;
+    list-style: none;
 }
 ul li {
     margin-left: 50px; /* icon width */
@@ -99,7 +100,7 @@ ol li p {
     height: 0;
 }
 body {
-    font: 100 16px/1.3em 'Roboto Light', sans-serif;
+    font: lighter 16px/1.3em 'Roboto', 'Verdana';
     color: white;
 }
 /*
@@ -191,9 +192,13 @@ header {
 #main-content {
     background-color: #2c3e50;
 }
+    #main-content .categories {
+        margin: 20px 0;
+    }
     #main-content .categories,
-    #timeline {
-        padding: 0 30px 0 30px;
+    #timeline,
+    #skills {
+        padding: 0 30px;
     }
     #main-content .categories span {
         font-size: 1.75em;
@@ -333,9 +338,89 @@ header {
  * Timeline ends
  */
 
+/*
+ * Skill category starts
+ */
+#skills {
+    margin: 0;
+}
+    #skills li {
+        display: inline-block;
+        width: 25%;
+        float: left;
+        margin: 0;
+    }
+        #skills li span[data-percentage="85"]:before,
+        #skills li span[data-percentage="85"]:after,
+        #skills li span[data-percentage="75"]:before,
+        #skills li span[data-percentage="50"]:before {
+            content: "";
+            display: block;
+/*
+            position: absolute;
+            top: 0;
+            left: 0;
+*/
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 15px solid #00a3e6;    
+        }
+        #skills li span[data-percentage="85"]:before { /* Draws a white border 25% long */
+            position: absolute;
+            border-right-color: white;
+            -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+        }
+        #skills li span[data-percentage="85"]:after { /* Reduces the white border with 10% */
+            border: 15px solid transparent;
+            border-right: 15px solid #00a3e6;
+            -webkit-transform: rotate(9deg);
+            transform: rotate(9deg);
+        }
+        #skills li span[data-percentage="75"]:before { /* 75% blue circle */
+            border-right-color: white;
+            -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg)
+        }
+        #skills li span[data-percentage="50"]:before { /* 50% blue circle */
+            border-right-color: white;
+            border-bottom-color: white;
+            -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg)
+        }
+        #skills div {
+            position: relative;
+        }
+        #skills li span[data-percentage]+span {
+            position: absolute;
+            top: 44%;
+            left: 25%;
+            font-size: 2.5em;
+        }
+        #skills li p {
+            margin: 10px 0;
+            padding-left: 20px;
+            font-size: 1.2em;
+        }
+        #skills li p:first-of-type {
+/*            margin-top: 200px;*/
+        }
+/*
+ * Skill category ends
+ */
 
+/*
+ * Main-content ends
+ */
 
+/*
+ * Footer starts
+ */
 
+footer {
+    color: #2c3e50;
+}
 
 
 

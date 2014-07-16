@@ -10,3 +10,19 @@ main-content
 Add js/vendor to .gitignore when pushing to production
 Add hyperlinks to Telerik Academy, Sofia University
 Revise anchor styling - more font-weight, hover animations, :focus, :active
+
+
+!IMPORTANT!
+    Bug: up-arrow position doesn't move correctly when resizing window
+    Bug: fonts in Chrome doesn't render properly (no Roboto Light)
+        possible fix: 
+            @font-face {
+                font-family: 'GriffosFont Regular';
+                font-weight: normal;
+                font-style: normal;
+                src: url('fonts/GriffosFont.eot');
+                src: local('GriffosFont Regular'), local('GriffosFont'), url('fonts/GriffosFont.woff') format('woff'), url('fonts/GriffosFont.\
+            ttf') format('truetype'), url('fonts/GriffosFont.svg#GriffosFont') format('svg');
+            }
+        possible fix 2:
+            font-squirel
