@@ -192,17 +192,20 @@ header {
 #main-content {
     background-color: #2c3e50;
 }
-    #main-content .categories {
-        margin: 20px 0;
+    #main-content .wrapper {
+        padding-bottom: 20px;
     }
-    #main-content .categories,
-    #timeline,
-    #skills {
-        padding: 0 30px;
-    }
-    #main-content .categories span {
-        font-size: 1.75em;
-    }
+        #main-content .categories ~.categories {
+            margin: 20px 0;
+        }
+        #main-content .categories,
+        #timeline,
+        #skills {
+            padding: 0 30px;
+        }
+        #main-content .categories span {
+            font-size: 1.75em;
+        }
 /*
  * Timeline starts
  */
@@ -403,9 +406,6 @@ header {
             padding-left: 20px;
             font-size: 1.2em;
         }
-        #skills li p:first-of-type {
-/*            margin-top: 200px;*/
-        }
 /*
  * Skill category ends
  */
@@ -421,9 +421,32 @@ header {
 footer {
     color: #2c3e50;
 }
-
-
-
+    footer .wrapper {
+        padding-bottom: 20px;
+    }
+        footer .categories div {
+            width: 27%;
+            display: inline-block;
+        }
+            footer h3 {
+                margin: 5px 0 5px 2px;
+            }
+            footer h3:before {
+                content: "";
+                display: inline-block;
+                width: 10px;
+                height: 10px;
+                margin-right: 20px;
+                border-radius: 50%;
+                background-color: #2c3e50;    
+            }    
+            footer div + div h2 {
+                text-align: right;
+            }
+            footer .right-floated-container p {
+                margin: 0;
+                padding-left: 10px;
+            }
 
 
 

@@ -10,7 +10,7 @@ main-content
 Add js/vendor to .gitignore when pushing to production
 Add hyperlinks to Telerik Academy, Sofia University
 Revise anchor styling - more font-weight, hover animations, :focus, :active
-
+selectivizr.js for ie6-8 (:last-child, :last-of-type, :first-of-type)
 
 !IMPORTANT!
     Bug: up-arrow position doesn't move correctly when resizing window
