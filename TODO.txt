@@ -1,28 +1,9 @@
 Header
-    use modernizr to add lt ie9 custom styles (low res icon pack/sprite)
     check blog html5 shiv/shim
-    refactor existing css
-    
-main-content
-
-
-
-Add js/vendor to .gitignore when pushing to production
-Add hyperlinks to Telerik Academy, Sofia University
-Revise anchor styling - more font-weight, hover animations, :focus, :active
-selectivizr.js for ie6-8 (:last-child, :last-of-type, :first-of-type)
-
-!IMPORTANT!
-    Bug: up-arrow position doesn't move correctly when resizing window
-    Bug: fonts in Chrome doesn't render properly (no Roboto Light)
-        possible fix: 
-            @font-face {
-                font-family: 'GriffosFont Regular';
-                font-weight: normal;
-                font-style: normal;
-                src: url('fonts/GriffosFont.eot');
-                src: local('GriffosFont Regular'), local('GriffosFont'), url('fonts/GriffosFont.woff') format('woff'), url('fonts/GriffosFont.\
-            ttf') format('truetype'), url('fonts/GriffosFont.svg#GriffosFont') format('svg');
-            }
-        possible fix 2:
-            font-squirel
+    use modernizr to add lt ie9 custom styles (low res icon pack/sprite)
+        try different combinations of sprites:
+            photoshop Ctrl-T resized png
+            photoshop Ctrl-T resized and crushed png
+            photoshop Alt-Ctrl-I resized png
+            photoshop Alt-Ctrl-I resized and crushed png
+            Current: 120px -> picresize.com (27px) -> tinyPNG -> sprite generator
