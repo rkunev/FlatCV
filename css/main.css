@@ -159,19 +159,19 @@ header {
                     margin-left: 0;
                     margin-bottom: 10px;
                     padding-left: 50px;
-                    font: normal 1.125em/1.5 'Roboto Light', sans-serif;
+                    font: normal 1.125em/1.67 'Roboto Light', sans-serif;
                 }
                 header .column-narrow-left li.icon-phone {
                     background: url('../img/icons-sprite.png') no-repeat 0px 0px;
                 }
                 header .column-narrow-left li.icon-mail {
-                    background: url('../img/icons-sprite.png') no-repeat 0px -28px;
+                    background: url('../img/icons-sprite.png') no-repeat 0px -41px;
                 }
                 header .column-narrow-left li.icon-skype {
-                    background: url('../img/icons-sprite.png') no-repeat 0px -56px;
+                    background: url('../img/icons-sprite.png') no-repeat 0px -83px;
                 }
                 header .column-narrow-left li.icon-code {
-                    background: url('../img/icons-sprite.png') no-repeat 0px -84px;
+                    background: url('../img/icons-sprite.png') no-repeat 0px -121px;
                 }
         header #up-arrow {
             display: block;
@@ -279,7 +279,7 @@ header {
                 height: 16px;
                 margin-right: 5px;
                 border-radius: 50%;
-                background-color: #2c3e50; 
+                background-color: #2c3e50;
             }
                 #timeline section h2 .triangle {
                     border-bottom: 42px solid #2c3e50;
@@ -358,7 +358,7 @@ header {
             width: 150px;
             height: 150px;
             border-radius: 50%;
-            border: 15px solid #00a3e6;    
+            border: 15px solid #00a3e6;
         }
         #skills li span[data-percentage="85"]:before { /* Draws a white border 25% long */
             position: absolute;
@@ -438,8 +438,9 @@ footer {
                 margin: 0;
                 padding-left: 10px;
             }
-
-
+/* 
+ * Footer ends
+ */
 
 /* ==========================================================================
    Media Queries

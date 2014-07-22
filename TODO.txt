@@ -1,9 +1,3 @@
-Header
-    check blog html5 shiv/shim
-    use modernizr to add lt ie9 custom styles (low res icon pack/sprite)
-        try different combinations of sprites:
-            photoshop Ctrl-T resized png
-            photoshop Ctrl-T resized and crushed png
-            photoshop Alt-Ctrl-I resized png
-            photoshop Alt-Ctrl-I resized and crushed png
-            Current: 120px -> picresize.com (27px) -> tinyPNG -> sprite generator
+remove Verdana fallback-font when pushing to master
+    find a suitable modern sans-serif font
+        final fallback: sans-serif
