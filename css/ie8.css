@@ -1,0 +1,47 @@
+.lt-ie9 #up-arrow {
+    background: transparent url('../img/ie8-sprite.png') no-repeat -121px -540px;
+    bottom: 0;
+    width: 28px;
+    height: 14px;
+}
+.lt-ie9 #timeline:after {
+    background: transparent url('../img/ie8-sprite.png') no-repeat -100px -540px;
+    left: 49.9%;
+}
+.lt-ie9 #timeline time {
+    background: transparent url('../img/ie8-sprite.png') no-repeat 0px -540px;
+}
+    .lt-ie9 #timeline .column-narrow-right h2 {
+        background: #ecf0f1 url('../img/h2-list.png') no-repeat 40px center;
+        width: 200px;
+        padding-left: 70px;
+    }
+    .lt-ie9 #timeline .column-narrow-left h2 {
+        background: #ecf0f1 url('../img/h2-list.png') no-repeat 20px center;
+        padding-left: 50px;
+        width: 220px;
+    }
+    .lt-ie9 #timeline section h2:before {
+        display: none;
+    }
+.lt-ie9 #skills span[data-percentage="85"] {
+    background: transparent url('../img/ie8-sprite.png') no-repeat 0px 0px;
+}
+.lt-ie9 #skills span[data-percentage="75"] {
+    background: transparent url('../img/ie8-sprite.png') no-repeat 0px -180px;
+}
+.lt-ie9 #skills span[data-percentage="50"] {
+    background: transparent url('../img/ie8-sprite.png') no-repeat 0px -360px;
+}
+.lt-ie9 #skills span[data-percentage] {
+    display: inline-block;
+    width: 180px;
+    height: 180px;
+}
+.lt-ie9 #skills span[data-percentage]:after,
+.lt-ie9 #skills span[data-percentage]:before {
+    display: none;
+}
+.lt-ie9 footer h3:before {
+    background: transparent url('../img/h3-list.png') no-repeat left center;
+}

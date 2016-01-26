@@ -1,0 +1,650 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"prin",
+				"print_r"
+			],
+			[
+				"post_thum",
+				"post_thumbnail_id"
+			],
+			[
+				"blo",
+				"blog-page"
+			],
+			[
+				"t",
+				"transition"
+			],
+			[
+				"trans",
+				"transition"
+			],
+			[
+				"border-bott",
+				"border-bottom-color"
+			],
+			[
+				"HH",
+				"Helper::array-head	Get the first element of an array. Useful for method chaining."
+			],
+			[
+				"ws-",
+				"white-space"
+			],
+			[
+				"tran",
+				"transition"
+			],
+			[
+				"ease-i",
+				"ease-in-out"
+			],
+			[
+				"tra",
+				"transition"
+			],
+			[
+				"rgb",
+				"rgba()"
+			],
+			[
+				"bgr",
+				"bgr-n	background-repeat: no-repeat;"
+			],
+			[
+				"loop",
+				"comment_loop_start"
+			],
+			[
+				"get_Sty",
+				"get_stylesheet_directory_uri"
+			],
+			[
+				"get_stylesheet_dire",
+				"get_stylesheet_directory_uri"
+			],
+			[
+				"sk",
+				"skell_init"
+			],
+			[
+				"get_sty",
+				"get_stylesheet_directory_uri"
+			],
+			[
+				"con",
+				"constant	AngularJS"
+			],
+			[
+				"mo",
+				"module	AngularJS"
+			],
+			[
+				"dic",
+				"dices"
+			],
+			[
+				"rol",
+				"rollDices"
+			],
+			[
+				"fun",
+				"fun	Function"
+			],
+			[
+				"rolleD",
+				"rollDices"
+			],
+			[
+				"for",
+				"for	for (…) {…}"
+			],
+			[
+				"to",
+				"toEqual"
+			],
+			[
+				"roll",
+				"rolledTimes"
+			],
+			[
+				"dice",
+				"diceEngine"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 274.0,
+		"last_filter": "remove",
+		"selected_items":
+		[
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"disable ",
+				"Package Control: Disable Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"sy h",
+				"Set Syntax: HTML"
+			],
+			[
+				"sy",
+				"Set Syntax: HTML"
+			],
+			[
+				"sy ht",
+				"Set Syntax: HTML"
+			],
+			[
+				"sy js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"prefix",
+				"Autoprefix CSS"
+			],
+			[
+				"pret",
+				"HTMLPrettify"
+			],
+			[
+				"pretty",
+				"HTMLPrettify"
+			],
+			[
+				"markdown",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"remove pa",
+				"Package Control: Remove Package"
+			],
+			[
+				"disable",
+				"Package Control: Disable Package"
+			],
+			[
+				"sycss",
+				"Set Syntax: CSS"
+			]
+		],
+		"width": 510.0
+	},
+	"console":
+	{
+		"height": 272.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/Github/Flat CV"
+	],
+	"file_history":
+	[
+		"/D/Github/Flat CV/flat",
+		"/D/Github/Flat CV/index.html",
+		"/D/Github/Flat CV/.gitingnore",
+		"/D/Github/Flat CV/README.md",
+		"/C/wamp/www/wp/wp-content/themes/zclean/resources/css/default.css",
+		"/C/wamp/www/wp/wp-content/themes/zclean/style.css",
+		"/C/wamp/www/wp/wp-content/themes/zclean/category.php",
+		"/C/wamp/www/wp/wp-content/themes/zclean/front-page.php",
+		"/C/Users/rkune/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/D/Github/Flat CV/js/main.js",
+		"/D/Games/Rise of Nations/tribes/russians.xml",
+		"/D/Games/Rise of Nations/tribes/spanish.xml",
+		"/D/Games/Rise of Nations/tribes/turks.xml",
+		"/C/wamp/www/wp/wp-includes/link-template.php",
+		"/C/wamp/www/wp/wp-includes/general-template.php",
+		"/C/wamp/www/wp/wp-content/themes/zclean/includes/sidebars.php",
+		"/C/wamp/www/wp/wp-content/themes/zclean/functions.php",
+		"/C/wamp/www/wp/wp-content/themes/zclean/page.php",
+		"/C/wamp/www/wp/wp-content/themes/zclean/single.php",
+		"/C/wamp/www/wp/wp-content/themes/zclean/header.php",
+		"/C/wamp/www/wp/wp-content/themes/zclean/page-templates/contacts.php",
+		"/C/wamp/www/wp/wp-content/themes/zclean/includes/assets_enqueue.php",
+		"/C/wamp/www/wp/wp-content/themes/twentyfifteen/sidebar.php",
+		"/C/wamp/www/wp/wp-content/themes/twentyfifteen/inc/back-compat.php",
+		"/C/wamp/www/wp/wp-content/themes/twentyfifteen/inc/custom-header.php",
+		"/C/wamp/www/wp/wp-content/themes/twentyfifteen/inc/customizer.php",
+		"/C/wamp/www/wp/wp-includes/widgets/class-wp-widget-categories.php",
+		"/C/wamp/www/wp/wp-includes/category-template.php",
+		"/C/wamp/www/wp/wp-includes/post-template.php",
+		"/C/Users/rkune/.mapkey",
+		"/C/Users/rkune/AppData/Roaming/Sublime Text 3/Packages/Autoprefixer/Autoprefixer.sublime-settings",
+		"/C/Users/rkune/AppData/Roaming/Sublime Text 3/Packages/User/Autoprefixer.sublime-settings",
+		"/C/wamp/www/wp/wp-content/themes/zclean/resources/js/custom.js",
+		"/C/wamp/www/wp/wp-content/themes/zclean/vendor/foundation/index.html",
+		"/C/wamp/bin/apache/apache2.4.9/conf/extra/httpd-autoindex.conf",
+		"/C/wamp/bin/apache/apache2.4.9/conf/httpd.conf",
+		"/C/wamp/www/wp/wp-content/themes/zclean/vendor/foundation/js/vendor/what-input.min.js",
+		"/C/wamp/www/wp/wp-content/themes/zclean/vendor/foundation/js/app.js",
+		"/C/wamp/www/wp/wp-content/themes/zclean/vendor/foundation/css/app.css",
+		"/C/wamp/bin/apache/apache2.4.9/bin/iconv/adobe-stdenc.so",
+		"/C/wamp/www/wp/wp-content/themes/zclean/footer.php",
+		"/C/wamp/www/wp/wp-content/themes/zclean/index.php",
+		"/C/wamp/www/wp/wp-content/themes/zclean/vendor/magic/magic.min.css",
+		"/C/wamp/www/metronic/v3.8.1/theme/templates/frontend/index.html",
+		"/C/wamp/www/wp/wp-content/themes/zclean/vendor/bootstrap/css/bootstrap.css",
+		"/C/wamp/www/metronic/v3.8.1/theme/assets/frontend/layout/css/themes/blue.css",
+		"/C/wamp/www/metronic/v3.8.1/theme/assets/frontend/layout/css/themes/red.css",
+		"/C/wamp/www/wp/wp-content/themes/zclean/resources/css/style.css",
+		"/C/wamp/www/wp/wp-content/themes/zclean/resources/css/fonts.css",
+		"/C/wamp/www/wp/wp-content/themes/zclean/vendor/jquery/jquery.min.js",
+		"/D/Github/Clean/softstring.html",
+		"/D/Github/Clean/resources/css/softstring/fonts.css",
+		"/C/wamp/www/wp/wp-includes/functions.wp-styles.php",
+		"/D/Github/Clean/themes/softstring/index.html",
+		"/C/wamp/www/wp/wp-content/themes/zcl/style.css",
+		"/D/Github/Clean/themes/transit/elements.html",
+		"/C/wamp/www/wp/wp-content/themes/zclean/css/style.css",
+		"/C/Users/rkune/.ssh/id_rsa.pub",
+		"/D/Github/Clean/themes/softstring/fonts.css",
+		"/D/Github/Clean/themes/softstring/default.css",
+		"/D/Github/Clean/themes/transit/generic.html",
+		"/C/wamp/www/wp/.htaccess",
+		"/C/wamp/www/favicon.ico",
+		"/C/wamp/www/testmysql.php",
+		"/C/wamp/www/index.php",
+		"/C/wamp/www/wp/wp-content/themes/twentyfifteen/page.php",
+		"/C/wamp/www/wp/wp-content/themes/twentyfifteen/content-page.php",
+		"/C/wamp/www/wp/wp-content/themes/zclean/includes/template-tags.php",
+		"/C/wamp/www/wp/wp-content/themes/zclean/includes/shortcodes.php",
+		"/C/wamp/www/wp/wp-content/themes/zclean/fonts/fontawesome-webfont.svg",
+		"/C/wamp/www/wp/wp-content/themes/zclean/css/style-xsmall.css",
+		"/C/wamp/www/wp/wp-content/themes/zclean/css/style-xlarge.css",
+		"/C/wamp/www/wp/wp-content/themes/zclean/css/style-small.css",
+		"/C/wamp/www/wp/wp-content/themes/zclean/css/style-medium.css",
+		"/C/wamp/www/wp/wp-content/themes/zclean/css/style-large.css",
+		"/C/Users/rkune/AppData/Roaming/Sublime Text 3/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc",
+		"/C/wamp/www/wp/wp-content/themes/zclean/css/skel.css",
+		"/C/wamp/www/wp/wp-content/themes/zclean/js/skel.min.js",
+		"/C/wamp/www/wp/wp-content/themes/zclean/js/init.js",
+		"/C/Users/rkune/Desktop/New folder/Untitled Folder/Cobweb Extensions/Wordpress/Themes/Progressive/cobwebprogressive/partials/primary-menu.php",
+		"/C/Users/rkune/Desktop/New folder/Untitled Folder/Cobweb Extensions/Wordpress/Themes/Progressive/cobwebprogressive/header.php",
+		"/C/wamp/www/wp/wp-content/themes/zclean/css/font-awesome.min.css",
+		"/C/wamp/www/wp/wp-includes/functions.wp-scripts.php",
+		"/C/wamp/www/wp/wp-content/themes/zclean/resources/css/main.css",
+		"/D/Github/Clean/transit.html",
+		"/C/wamp/www/wp/wp-content/themes/zclean/css/mega-menu.css",
+		"/D/Github/Clean/index.html",
+		"/D/prSSH.ppk",
+		"/D/Github/Dices/.gitignore",
+		"/D/Github/Dices/src/app/components/dice/diceEngine.service.js",
+		"/D/Github/Dices/src/app/components/dice/diceEngine.service.spec.js",
+		"/D/Github/Dices/src/app/components/dice/dice.directive.spec.js",
+		"/D/Github/Dices/src/app/index.constants.js",
+		"/D/Github/Dices/src/app/components/dice/dice.directive.js",
+		"/D/Github/Dices/src/app/components/navbar/navbar.html",
+		"/D/Github/Dices/src/app/about/About.js",
+		"/D/Github/Dices/src/app/about/about.controller.js",
+		"/D/Github/Dices/src/app/index.route.js",
+		"/D/Github/Dices/src/app/main/main.controller.js",
+		"/D/Github/Dices/src/app/about/about.html",
+		"/D/Github/Dices/coverage/PhantomJS 1.9.8 (Windows 8 0.0.0)/sorter.js",
+		"/D/Github/Dices/coverage/PhantomJS 1.9.8 (Windows 8 0.0.0)/prettify.js",
+		"/D/Github/Dices/coverage/PhantomJS 1.9.8 (Windows 8 0.0.0)/prettify.css",
+		"/D/Github/Dices/src/app/components/dice/dice.html",
+		"/D/Github/Dices/src/app/components/yatzy/yatzyEngine.service.spec.js",
+		"/D/Github/Dices/src/app/components/yatzy/yatzyEngine.service.js",
+		"/D/Github/Dices/src/app/components/yatzy/yatzy.directive.js",
+		"/D/Github/Dices/src/app/components/yatzy/yatzy.directive.spec.js",
+		"/D/Github/Dices/src/app/components/dices/dices.directive.spec.js",
+		"/D/Github/Dices/src/app/components/dices/dices.directive.js",
+		"/D/Github/Dices/src/app/components/dices/dices.html",
+		"/D/Github/Dices/src/app/components/dices/diceEngine.service.spec.js",
+		"/D/Github/Dices/src/app/components/yatzy/dices.directive.spec.js",
+		"/D/Github/Dices/src/app/components/yatzy/dices.directive.js",
+		"/D/Github/Dices/src/app/components/dice/yatzy.html",
+		"/D/Github/Dices/src/app/components/malarkey/malarkey.directive.spec.js",
+		"/D/Github/Dices/src/app/components/dices/dice.directive.js",
+		"/D/Github/Dices/src/app/components/dices/dice.html",
+		"/D/Github/Dices/src/app/components/dices/dice.directive.spec.js",
+		"/D/Github/Dices/src/app/components/dices/diceEngine.service.js",
+		"/D/Github/Dices/src/app/components/malarkey/malarkey.directive.js",
+		"/D/Github/Dices/src/app/index.run.js",
+		"/D/Github/Dices/src/app/index.module.js",
+		"/D/Github/Dices/src/app/index.config.js",
+		"/D/Github/Dices/bower_components/angular/angular.js",
+		"/D/Github/Dices/src/app/components/navbar/navbar.directive.js",
+		"/D/Github/Dices/src/app/components/githubContributor/githubContributor.service.spec.js",
+		"/D/Github/Dices/karma.conf.js"
+	],
+	"find":
+	{
+		"height": 72.0
+	},
+	"find_in_files":
+	{
+		"height": 164.0,
+		"where_history":
+		[
+			"D:\\Github\\Dices\\src"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"theme",
+			"22",
+			"8px",
+			"3",
+			"2",
+			"1.10. Transitions & Animations",
+			"0.4",
+			"fadein",
+			"2",
+			"fadeIn",
+			"0.4",
+			"1.4. Menus",
+			"sub-menu",
+			"1.7. Sidebar",
+			"a0a0a0",
+			"0a0a0a",
+			"0a",
+			"Plugins",
+			"300",
+			"the_permalink",
+			".read-more",
+			"Animation",
+			"read-more",
+			"1.1. Typographical Elements",
+			"byline",
+			"1.2. Headings",
+			"1.5. Header",
+			"headers",
+			"1.10. Transitions & Animations",
+			"3.2. Blog Page",
+			"1.1. Typographical Elements",
+			" h2",
+			"#page h2",
+			"3.1. Contact Page",
+			"3. Templates",
+			".title",
+			"1.10. Transitions & Animations",
+			"1.1. Typographical Elements",
+			"1.2. Headings",
+			"3. Templates",
+			"4.4. Spinner Bar",
+			"1.10. Transitions & Animations",
+			"4.3. Iframes",
+			"4. Components",
+			"2",
+			"150",
+			"menu",
+			"columns medium-4",
+			"100",
+			"0",
+			"250",
+			"225",
+			"275",
+			"1.6. Main",
+			"4.1. Badge",
+			"300",
+			"badge",
+			"-js",
+			"jquery",
+			"zclean-theme",
+			"1.10. Transitions & Animations",
+			"magictime",
+			"font-awesome",
+			"initDropdowns",
+			"tbox",
+			"h1",
+			"components",
+			"jquery",
+			"zclean-theme",
+			"1.1. Typographical Elements",
+			"skell_init",
+			"zclean-style",
+			"-style",
+			"current-menu-item",
+			"#header nav > ul > li .button",
+			"register_my_menu",
+			"navButton",
+			"../img/transit/",
+			"../../",
+			"../../fonts/",
+			"fonts/",
+			"zclean-custom-js",
+			"img/",
+			"resources",
+			"incrementRollCounter",
+			"yatzy",
+			"yatzyEngine",
+			"toEqual( 'No more rolls left!' )",
+			"yatzyEngine",
+			"YatzyController",
+			"yatzy",
+			"diceEngine",
+			"dices",
+			"diceEngine",
+			"DicesController",
+			"dices",
+			"dice",
+			"DiceController",
+			"yatzy",
+			"dice",
+			"rollDices",
+			"moment",
+			"malarkey",
+			"populateInitialDiceValues",
+			"div",
+			" gender",
+			"age:",
+			"friend",
+			"n",
+			"value",
+			"githubContributor",
+			"acme-malarkey",
+			"malar",
+			"$log",
+			"rollDices",
+			"rollDice",
+			"getContributors",
+			"githubContributor",
+			"flex=\"33\"",
+			"navbar",
+			"NavbarController",
+			"acmeNavbar",
+			"false",
+			"lang",
+			"creationDate",
+			"main",
+			"$log",
+			"Main"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 72.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "flat.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"defa",
+				"wp-content\\themes\\zclean\\resources\\css\\default.css"
+			],
+			[
+				"page.php",
+				"wp-content\\themes\\zclean\\page.php"
+			],
+			[
+				"default.css",
+				"wp-content\\themes\\zclean\\resources\\css\\default.css"
+			],
+			[
+				"head",
+				"wp-content\\themes\\zclean\\header.php"
+			],
+			[
+				"diceenspec",
+				"src\\app\\components\\dice\\diceEngine.service.spec.js"
+			],
+			[
+				"dice.di",
+				"src\\app\\components\\dices\\dice.directive.js"
+			],
+			[
+				"inde",
+				"src\\index.html"
+			],
+			[
+				"about.controller.js",
+				"src\\app\\about\\about.controller.js"
+			],
+			[
+				"fonts.css",
+				"resources\\css\\softstring\\fonts.css"
+			],
+			[
+				"style.css",
+				"resources\\css\\transit\\style.css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"D:\\Github\\Dices\\dices.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 301.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
