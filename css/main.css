@@ -67,7 +67,7 @@ a {
     border-bottom: 1px dotted #ecf0f1;
 }
 a:hover {
-    border-bottom: 1px solid white;                    
+    border-bottom: 1px solid white;
 }
 strong {
     font-family: 'Roboto Regular', sans-serif;
@@ -106,35 +106,35 @@ body {
 /*
  * Header starts
  */
-header {
+.site-header {
     background-color: #00a3e6;
 }
-    header .wrapper {
+    .site-header .wrapper {
         position: relative;
     }
-        header section {
-            display: inline-block;    
+        .site-header section {
+            display: inline-block;
             margin-left: 20px;
         }
-        header section:first-child {
+        .site-header section:first-child {
             margin-left: 0;
         }
-        header #profile-image {
+        .site-header #profile-image {
             width: 17.5%;
             padding: 50px 0 0 50px;
         }
-            header #profile-image img {
+            .site-header #profile-image img {
                 width: 100%;
             }
-        header .right-floated-container {
+        .site-header .right-floated-container {
             width: 650px;
         }
-            header #profile-info {
+            .site-header #profile-info {
                 width: 346px;
-                float: left;                
+                float: left;
             }
-                header #profile-info h2,
-                header .column-narrow-left h2 {
+                .site-header #profile-info h2,
+                .site-header .column-narrow-left h2 {
                     background-color: #2c3e50;
                     line-height: 1.75em;
                     display: inline-block;
@@ -143,37 +143,37 @@ header {
                     padding-left: 20px;
                     box-sizing: border-box;
                 }
-                    header h2 .triangle {
+                    .site-header h2 .triangle {
                         right: 0;
                         border-bottom: 42px solid #00a3e6;
-                        border-left: 25px solid transparent;  
+                        border-left: 25px solid transparent;
                     }
-                header #profile-info p {
+                .site-header #profile-info p {
                     width: 80%;
                 }
-            header .column-narrow-left {
+            .site-header .column-narrow-left {
                 width: 280px;
             }
-                header .column-narrow-left li {
+                .site-header .column-narrow-left li {
                     list-style: none;
                     margin-left: 0;
                     margin-bottom: 10px;
-                    padding-left: 50px;
+                    padding-left: 40px;
                     font: normal 1.125em/1.67 'Roboto Light', sans-serif;
                 }
-                header .column-narrow-left li.icon-phone {
-                    background: url('../img/icons-sprite.png') no-repeat 0px 0px;
+                .site-header .column-narrow-left li.icon-phone {
+                    background: url('../img/ic_contact_phone_white_24px.svg') no-repeat 0 0;
+                    background-size: 28px 28px;
                 }
-                header .column-narrow-left li.icon-mail {
-                    background: url('../img/icons-sprite.png') no-repeat 0px -41px;
+                .site-header .column-narrow-left li.icon-mail {
+                    background: url('../img/ic_email_white_24px.svg') no-repeat 0 0;
+                    background-size: 28px 28px;
                 }
-                header .column-narrow-left li.icon-skype {
-                    background: url('../img/icons-sprite.png') no-repeat 0px -83px;
+                .site-header .column-narrow-left li.icon-code {
+                    background: url('../img/ic_code_white_24px.svg') no-repeat 0 0;
+                    background-size: 28px 28px;
                 }
-                header .column-narrow-left li.icon-code {
-                    background: url('../img/icons-sprite.png') no-repeat 0px -121px;
-                }
-        header #up-arrow {
+        .site-header #up-arrow {
             display: block;
             height: 20px;
             width: 20px;
@@ -349,6 +349,7 @@ header {
         float: left;
         margin: 0;
     }
+        #skills li span[data-percentage="100"]:before,
         #skills li span[data-percentage="85"]:before,
         #skills li span[data-percentage="85"]:after,
         #skills li span[data-percentage="75"]:before,
@@ -359,6 +360,15 @@ header {
             height: 150px;
             border-radius: 50%;
             border: 15px solid #00a3e6;
+        }
+        #skills li span[data-percentage="100"]+span {
+            margin-left: -10px;
+        }
+        #skills li span[data-percentage="85"]:before { /* Draws a white border 25% long */
+            position: absolute;
+            border-right-color: white;
+            -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
         }
         #skills li span[data-percentage="85"]:before { /* Draws a white border 25% long */
             position: absolute;
@@ -375,13 +385,13 @@ header {
         #skills li span[data-percentage="75"]:before { /* 75% blue circle */
             border-right-color: white;
             -webkit-transform: rotate(-45deg);
-            transform: rotate(-45deg)
+            transform: rotate(-45deg);
         }
         #skills li span[data-percentage="50"]:before { /* 50% blue circle */
             border-right-color: white;
             border-bottom-color: white;
             -webkit-transform: rotate(-45deg);
-            transform: rotate(-45deg)
+            transform: rotate(-45deg);
         }
         #skills div {
             position: relative;
@@ -409,36 +419,32 @@ header {
  * Footer starts
  */
 
-footer {
+.site-footer {
     color: #2c3e50;
 }
-    footer .wrapper {
+    .site-footer .wrapper {
         padding-bottom: 20px;
     }
-        footer .categories div {
+        .site-footer .categories div {
             width: 27%;
             display: inline-block;
         }
-            footer h3 {
+            .site-footer h3 {
                 margin: 5px 0 5px 2px;
             }
-            footer h3:before {
+            .site-footer h3:before {
                 content: "";
                 display: inline-block;
                 width: 10px;
                 height: 10px;
                 margin-right: 20px;
                 border-radius: 50%;
-                background-color: #2c3e50;    
-            }    
-            footer div + div h2 {
-                text-align: right;
+                background-color: #2c3e50;
             }
-            footer .right-floated-container p {
+            .site-footer .right-floated-container p {
                 margin: 0;
-                padding-left: 10px;
             }
-/* 
+/*
  * Footer ends
  */
 
