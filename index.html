@@ -13,7 +13,6 @@
     <title>Flat CV</title>
     <meta name="description" content="Flat UI CV">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,700" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="css/normalize.min.css" type="text/css">
     <link rel="stylesheet" href="css/main.css" type="text/css">
@@ -24,7 +23,6 @@
     <!--[if lt IE 8]>
         <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
-
     <header class="site-header">
         <div class="wrapper clearfix">
             <section id="profile-image">
@@ -32,30 +30,33 @@
             </section>
             <div class="right-floated-container">
                 <section id="profile-info">
-                    <h2>Who Am I<span class="triangle"></span></h2>
-                    <p>
-                        I am <strong>Rosen Kunev</strong>. I am your friendly neighbourhood
-                        <strong>Front End Developer</strong>, currently living in
-                        <strong>Sofia, Bulgaria</strong>.
-                    </p>
-                    <p>
-                        Graduated <strong>Communications &amp; Electronics</strong> at <strong>Sofia University</strong>.
-                        Things that get me excited about: health &amp; fitness and high-tech gadgets.
-                    </p>
+                    <h2 class="toggler">Who Am I<span class="triangle"></span></h2>
+                    <div class="toggle-target">
+                        <p>
+                            I am <strong>Rosen Kunev</strong>. I am your friendly neighbourhood
+                            <strong>Front End Developer</strong>, currently living in
+                            <strong>Sofia, Bulgaria</strong>.
+                        </p>
+                        <p>
+                            Graduated <strong>Communications &amp; Electronics</strong> at <strong>Sofia University</strong>. Things that get me excited about: health &amp; fitness and high-tech gadgets.
+                        </p>
+                    </div>
                 </section>
                 <section class="column-narrow-left">
-                    <h2>Contact<span class="triangle"></span></h2>
-                    <ul class="contacts">
-                        <li class="icon-phone">+359 877 888 349</li>
-                        <li class="icon-mail">rkunev@gmail.com</li>
-                        <li class="icon-code"><a href="https://github.com/rkunev" target="_blank">github.com/rkunev</a></li>
-                    </ul>
+                    <h2 class="toggler">Contact<span class="triangle"></span></h2>
+                    <div class="toggle-target">
+                        <ul class="contacts">
+                            <li class="icon-phone">+359 877 888 349</li>
+                            <li class="icon-mail"><a href="mailto:rkunev@gmail.com">rkunev@gmail.com</a></li>
+                            <li class="icon-code"><a href="https://github.com/rkunev" target="_blank">github.com/rkunev</a></li>
+                        </ul>
+                        <p><strong>Don't hesitate to contact me!</strong></p>
+                    </div>
                 </section>
             </div>
             <span id="up-arrow"></span>
         </div>
     </header>
-
     <main id="main-content" role="main">
         <div class="wrapper">
             <div class="categories clearfix">
@@ -72,11 +73,11 @@
                         </h2>
                         <p>Currently looking for the next great employer.</p>
                         <p>Got any opened positions? Don't hesitate to contact me</p>
-                    </section><!-- Removes trailing whitespace
-                 --><time>2016</time>
+                    </section>
+                    <time>2016</time>
                 </li>
                 <li class="clearfix">
-                    <section class="column-narrow-left">
+                    <section class="column-narrow-left toggle-target-2015 toggle-target">
                         <h2>
                             Graduated SU
                             <span class="triangle"></span>
@@ -87,9 +88,9 @@
                         <p>
                             <a href="http://academy.telerik.com/" target="_blank">Telerik Academy</a>
                         </p>
-                    </section><!-- Removes trailing whitespace
-                 --><time>2015</time>
-                    <section class="column-narrow-right">
+                    </section>
+                    <time class="data-toggler" data-toggle=".toggle-target-2015">2015</time>
+                    <section class="column-narrow-right toggle-target-2015 toggle-target">
                         <h2>
                             Front-End Dev
                             <span class="triangle"></span>
@@ -103,7 +104,7 @@
                     </section>
                 </li>
                 <li class="clearfix">
-                    <section class="column-narrow-right">
+                    <section class="column-narrow-right toggle-target-2014 toggle-target">
                         <h2>
                             Front-End Intern
                             <span class="triangle"></span>
@@ -114,11 +115,11 @@
                         <p>
                             <a href="http://cobweb.biz" target="_blank">cobweb.biz</a>
                         </p>
-                    </section><!-- Removes trailing whitespace
-                 --><time>2014</time>
+                    </section>
+                    <time class="data-toggler" data-toggle=".toggle-target-2014">2014</time>
                 </li>
                 <li class="clearfix">
-                    <section class="column-narrow-right">
+                    <section class="column-narrow-right toggle-target-2013 toggle-target">
                         <h2>
                             Web Dev Intern
                             <span class="triangle"></span>
@@ -129,11 +130,11 @@
                         <p>
                             <a href="http://www.meteo.bg/en" target="_blank">meteo.bg</a>
                         </p>
-                    </section><!-- Removes trailing whitespace
-                 --><time>2013</time>
+                    </section>
+                    <time class="data-toggler" data-toggle=".toggle-target-2013">2013</time>
                 </li>
                 <li class="clearfix">
-                    <section class="column-narrow-left">
+                    <section class="column-narrow-left toggle-target-2012 toggle-target">
                         <h2>
                             Telerik Academy
                             <span class="triangle"></span>
@@ -146,9 +147,9 @@
                         <p>
                             <a href="http://academy.telerik.com/" target="_blank">Telerik Academy</a>
                         </p>
-                    </section><!-- Removes trailing whitespace
-                 --><time>2012</time><!--
-                 --><section class="column-narrow-right">
+                    </section>
+                    <time class="data-toggler" data-toggle=".toggle-target-2012">2012</time>
+                    <section class="column-narrow-right toggle-target-2012 toggle-target">
                         <h2>
                             Print Operator
                             <span class="triangle"></span>
@@ -160,7 +161,7 @@
                     </section>
                 </li>
                 <li class="clearfix">
-                    <section class="column-narrow-left">
+                    <section class="column-narrow-left toggle-target-2011 toggle-target">
                         <h2>
                             UG in SU
                             <span class="triangle"></span>
@@ -172,10 +173,10 @@
                         <p>
                             <a href="https://www.uni-sofia.bg/index.php/eng" target="_blank">Sofia University</a>
                         </p>
-                    </section><!-- Removes trailing whitespace
-                 --><time>2011</time><!--
-                 --><br /> <!-- Secondary node(s)  -->
-                    <section class="column-narrow-left secondary-nodes">
+                    </section>
+                    <time class="data-toggler" data-toggle=".toggle-target-2011">2011</time>
+                    <br>
+                    <section class="column-narrow-left secondary-nodes toggle-target-2011 toggle-target">
                         <h2>
                             SS Graduate
                             <span class="triangle"></span>
@@ -226,7 +227,6 @@
             </ul>
         </div>
     </main>
-
     <footer class="site-footer">
         <div class="wrapper">
             <div class="categories clearfix">
@@ -238,16 +238,16 @@
                 <div class="right-floated-container">
                     <h2>HOBBIES &amp; ACTIVITIES</h2>
                     <p>
-                        open source enthusiastic, music addict, coffee addict,
-                        android admirer, flat ui &amp; material ui lover
+                        open source enthusiastic, music addict, coffee addict, android admirer, flat ui &amp; material ui lover
                     </p>
                 </div>
             </div>
         </div>
     </footer>
     <script>
-        // window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>');
+    // window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>');
     </script>
+    <script type="text/javascript" src="js/main.js"></script>
 </body>
 
 </html>
