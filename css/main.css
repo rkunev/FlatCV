@@ -206,6 +206,11 @@ body {
             opacity: 1;
             transition: max-height .25s cubic-bezier(.55, 0, .1, 1), opacity .25s linear, margin .25s linear;
             margin: 0;
+            transform: translateZ(0);
+        }
+        .toggle-target.secondary-nodes {
+            /* transform: translateZ(0) creates a new coord system and breaks position property */
+            transform: initial;
         }
         .site-header .toggle-target.slide,
         #timeline .toggle-target.slide,
