@@ -1,0 +1,3 @@
+remove Verdana fallback-font when pushing to master
+    find a suitable modern sans-serif font
+        final fallback: sans-serif
