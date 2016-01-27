@@ -70,7 +70,6 @@ a:hover {
     border-bottom: 1px solid white;
 }
 strong {
-    font-family: 'Roboto Regular', sans-serif;
     font-weight: 900;
 }
 ul, ol {
@@ -159,7 +158,9 @@ body {
                     margin-left: 0;
                     margin-bottom: 10px;
                     padding-left: 40px;
-                    font: normal 1.125em/1.67 'Roboto Light', sans-serif;
+                    font-weight: 100;
+                    font-size: 1.125em;
+                    line-height: 1.67;
                 }
                 .site-header .column-narrow-left li.icon-phone {
                     background: url('../img/ic_contact_phone_white_24px.svg') no-repeat 0 0;
