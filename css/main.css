@@ -208,6 +208,10 @@ body {
             margin: 0;
             transform: translateZ(0);
         }
+        .toggle-target.secondary-nodes {
+            /* transform: translateZ(0) creates a new coord system and breaks position property */
+            transform: initial;
+        }
         .site-header .toggle-target.slide,
         #timeline .toggle-target.slide,
         .toggle-target.slide {
